@@ -1,12 +1,8 @@
-* {
-    background-color: transparent;
-    font-family: 'Inter', sans-serif;
-}
-
-a {
+button a {
     text-decoration: none;
     color: var(--tertiary-color);
     list-style: none;
+    background-color: transparent;
 }
 
 .header {
@@ -16,6 +12,7 @@ a {
     display: flex;
     align-items: center;
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .bg-image {
@@ -26,7 +23,6 @@ a {
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    border-radius: 1rem;
 }
 
 .inner-content-header {
@@ -61,12 +57,14 @@ a {
     font-weight: 550;
     font-style: capitalize;
     color: var(--primary-color);
+    background-color: transparent;
 }
 
 .left-side h2 {
     font-size: 2.3rem;
     font-weight: 800;
     color: var(--primary-color);
+    background-color: transparent;
 }
 
 .left-side p {
@@ -74,6 +72,7 @@ a {
     font-weight: 400;
     color: var(--primary-color);
     line-height: 1.5rem;
+    background-color: transparent;
 }
 
 .left-side button {

@@ -12,6 +12,12 @@
     color: var(--primary-color);
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    list-style: none;
+}
+
 .nav .inner-content {
     display: flex;
     align-items: center;
